@@ -1,0 +1,61 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#logo {
+    width: 100px;
+    Margin: 15px 15px;
+}
+
+.logo-search {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    float: left;
+    margin: 5px 5px;
+}
+
+li.right {
+   
+    float: right;
+    text-align: right;
+}
+
+#search {
+    margin-bottom: 10px;
+    height: 45px;
+    width: 60%;
+    border-radius: 15px;
+    border: 1px rgba(126, 125, 125, 0.726) solid;
+}
+
+.results-container {
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.results-container p {
+    margin: 8px;
+    margin-bottom: 25px;
+}
+
+.result-one { 
+    padding-top: 20px;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
